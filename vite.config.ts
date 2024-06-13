@@ -10,7 +10,7 @@ export default defineConfig({
      // add this to cache all the imports
     workbox: {
       globPatterns: ["**/*"],
-  },
+  }, registerType:'prompt',
   // add this to cache all the
   // static assets in the public folder
   includeAssets: [
@@ -52,12 +52,12 @@ export default defineConfig({
               "purpose": "maskable"
             },
             {
-              "src": "/icon-256x256.png",
+              "src": "public/icon-256x256.png",
               "sizes": "256x256",
               "type": "image/png"
             },
             {
-              "src": "/icon-384x384.png",
+              "src": "public/icon-384x384.png",
               "sizes": "384x384",
               "type": "image/png"
             }
