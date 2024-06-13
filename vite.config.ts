@@ -535,7 +535,7 @@ export default defineConfig({
               "name": "Explore Museums ",
               "url": "/museums",
               "description": "Explore Egypt's Most Famous Museums"
-              ,icons:[{
+              ,"icons":[{
                 "src": "windows11/Square44x44Logo.targetsize-96.png",
                 "sizes": "96x96"
               }]
@@ -544,7 +544,7 @@ export default defineConfig({
               "name": "Visit The Pyramids",
               "url": "/museums/6668d494c2c95fee284ad947/destination/666908675750abb4d53ed003",
               "description": "See Info about the Great Pyramids of Giza and Book a Ticket in Just a Second !"
-              ,icons:[{
+              ,"icons":[{
                 "src": "windows11/Square44x44Logo.targetsize-96.png",
                 "sizes": "96x96"
               }]
